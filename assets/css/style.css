@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+body {
+  background-color: hsl(185, 41%, 84%);
+  font-family: "Space Mono" sans-serif;
+}
+
+.logo {
+  position: relative;
+  top: 180px;
+  margin-left: 750px;
+}
+.container {
+  background-color: hsl(189, 41%, 97%);
+  width: 1000px;
+  height: 500px;
+  border-radius: 20px;
+  margin-left: 20rem;
+  margin-top: 15rem;
+  display: flex;
+}
+
+.left {
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(183, 100%, 15%);
+  width: 900px;
+  height: 430px;
+  border-radius: 20px;
+  margin-left: 70px;
+  margin-top: 30px;
+  margin-right: 2rem;
+}
+
+.buttonreset {
+  width: 350px;
+  margin-left: 5rem;
+  margin-top: 10rem;
+  padding: 13px;
+  background-color: hsl(183, 87%, 22%);
+  border: none;
+  font-family: "Space Mono", monospace;
+  color: hsl(184, 14%, 56%);
+}
+
+.search {
+  padding: 0.6rem;
+  width: 15rem;
+  background-color: hsl(185, 41%, 84%);
+  border: none;
+  border-radius: 7px;
+}
+
+.dollor {
+  position: relative;
+  right: 250px;
+  top: 4px;
+}
+
+.buttonpercent {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  font-family: "Space Mono";
+  font-size: 15px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.buttonpercent1 {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+  font-family: "Space Mono";
+  font-size: 15px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.person {
+  position: relative;
+  right: 250px;
+  top: 3px;
+}
+
+.boxtext {
+  display: flex;
+}
+
+.tip h4 {
+  position: relative;
+  top: 50px;
+  color: white;
+  margin-left: 25px;
+}
+
+.tip p {
+  color: hsl(184, 14%, 56%);
+  position: relative;
+  top: 30px;
+  margin-left: 25px;
+}
+
+.numbers {
+  position: relative;
+  left: 240px;
+  top: 50px;
+}
+
+.number0 {
+  position: relative;
+  bottom: 10px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 30px;
+  color: hsl(184, 14%, 56%);
+}
+
+.text {
+  font-family: "Space Mono", monospace;
+}
+
+.textnumbers {
+  font-family: "Space Mono", monospace;
+  color: hsl(169, 69%, 48%);
+  font-size: 2rem;
+}
